@@ -118,6 +118,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
+                text="✯ Support ✯", url="https://t.me/alone_support"
+            ),
+        ],
+
+        [
+            InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
@@ -147,6 +153,11 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
+                text="✯ Support ✯", url="https://t.me/alone_support"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
@@ -169,6 +180,11 @@ def telegram_markup(_, chat_id):
             ),
             InlineKeyboardButton(
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯ Support ✯", url="https://t.me/alone_support"
             ),
         ],
         [
@@ -288,6 +304,11 @@ def slider_markup(
                 callback_data=f"slider F|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
         ],
+        [
+            InlineKeyboardButton(
+                text="✯ Support ✯", url="https://t.me/alone_support"
+            ),
+        ],
     ]
     return buttons
 
@@ -324,6 +345,11 @@ def queue_markup(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯ Support ✯", url="https://t.me/alone_support"
             ),
         ],
         [
